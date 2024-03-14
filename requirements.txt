@@ -1,1 +1,6 @@
-redis-5.0.3 
+redis==5.0.3 
+python-dotenv==0.19.2
+validators==0.18.2
+sqlalchemy==1.4.32
+fastapi==0.75.0 
+uvicorn==0.17.6
