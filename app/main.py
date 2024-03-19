@@ -1,6 +1,6 @@
-import app.connection
-from app.settings import app
-from app.endpoints import *
+import app.config
+
+from app.apis import *
 
 
 

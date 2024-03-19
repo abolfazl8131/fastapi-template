@@ -1,8 +1,8 @@
 
 import app.schemas as schemas
-from app.settings import app
+from app.config.settings import app
 from app.services import wellcome_service
-from app.connection import get_db
+from app.config.connection import get_db
 from sqlalchemy.orm import Session
 from fastapi import Depends
 
