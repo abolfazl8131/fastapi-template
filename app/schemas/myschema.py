@@ -2,3 +2,6 @@
 from pydantic import BaseModel
 
 
+class Wellcome(BaseModel):
+    msg:int
+    user:str
